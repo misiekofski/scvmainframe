@@ -16,31 +16,84 @@
   </head>
 
   <body>
-    <div class="container">
-      <nav class="light-blue darken-2">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">SCV Consultants</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Azure</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="col s12 m8 offset-m2 l6 offset-l3">
-        <div class="card-panel grey lighten-5 z-depth-1">
-          <div class="row valign-wrapper">
-            <div class="col s2">
-              <img src="images/scv.png" alt="" class="circle responsive-img" />
-            </div>
-            <div class="col s10">
-              <span class="black-text">
-                Welcome to SCV mainframe. rsync should be working now.
-              </span>
+
+      <div class="navbar-fixed">     
+        <nav class="light-blue darken-2">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">SCV Consultants</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Azure</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col s8">
+            <div class="card-panel grey lighten-5 z-depth-4">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <img src="images/scv.png" alt="" class="circle responsive-img" />
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    <h5>Welcome to SCV mainframe.</h5>
+                      <span>deployed automatically by <a href="https://github.com/features/actions" target="_blank">github actions</a>!</span>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col s8 offset-s4">
+            <div class="card-panel grey lighten-5 z-depth-4">
+              <div class="row valign-wrapper">
+                <div class="col s12">
+                  <span class="black-text">
+                    <h5>Status of our projects:</h5>
+                    <div class="collection">
+                      <a href="#!" class="collection-item"><span class="new badge" data-badge-caption="online"></span>SCV Consultants</a>
+                      <a href="#!" class="collection-item"><span class="new badge blue" data-badge-caption="in progress"></span>TC Manager</a>
+                      <a href="#!" class="collection-item"><span class="new badge red" data-badge-caption="offline"></span>LigaTyperów</a>
+                    </div>                  
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
+
+      <footer class="page-footer light-blue darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Thanks for coming!</h5>
+              <p class="grey-text text-lighten-4">Unfortunately you cannot contact us.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://scvconsultants.com/" target="_blank">SCV Consultants</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://azure.microsoft.com/en-us/" target="_blank">Azure</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.pluralsight.com/" taget="_blank">Pluralsight</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 SCV Consultants          
+          </div>
+        </div>
+      </footer>      
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
